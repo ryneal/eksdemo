@@ -15,7 +15,7 @@ nodejs:
     targetPort: 3000
 crystal:
   image:
-    repository: brentley/ecsdemo-crystal.yaml
+    repository: brentley/ecsdemo-crystal
     pullPolicy: IfNotPresent
     tag: latest
   service:
